@@ -96,7 +96,7 @@ export default function Home() {
         </section>
 
         {/* 3. TIPS */}
-        <section id="tips">
+        <section id="tips" className="scroll-mt-20">
           <h3 className="text-2xl font-bold text-gray-900 mb-6 border-l-4 border-green-600 pl-3">
             💡 Tips hữu ích
           </h3>
