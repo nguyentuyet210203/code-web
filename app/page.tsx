@@ -28,9 +28,9 @@ const tips = [
 const congCu = [
   {
     id: 1,
-    ten: 'Notion',
+    ten: 'Draw.io',
     gioiThieu:
-      'Notion là công cụ ghi chú và quản lý dự án all-in-one. Nhóm chúng ta dùng Notion để lưu trữ tài liệu, viết tài liệu họp và theo dõi tiến độ công việc.',
+      'Draw.io là nền tảng vẽ biểu đồ mã nguồn mở cho phép sử dụng miễn phí. Chúng ta có thể sử dụng Draw.io bằng cách download về máy hoặc vẽ trên nền tảng web trực tuyến. Công cụ có thiết kế giao diện tối giản. Các tính năng được bố trí một cách hợp lý nên dễ dàng tìm kiếm và sử dụng để thiết kế. ',
     huongDan: [
       'Bước 1: Truy cập notion.so và đăng ký tài khoản bằng email nhóm.',
       'Bước 2: Tham gia workspace "Article Hungers" qua link mời được gửi trong email.',
