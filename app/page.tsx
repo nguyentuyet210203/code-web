@@ -130,7 +130,7 @@ export default function Home() {
         </section>
 
         {/* 4. CÔNG CỤ HỖ TRỢ */}
-        <section id="cong-cu">
+        <section id="cong-cu" className="scroll-mt-20">
           <h3 className="text-2xl font-bold text-gray-900 mb-6 border-l-4 border-purple-600 pl-3">
             🛠️ Công cụ hỗ trợ
           </h3>
