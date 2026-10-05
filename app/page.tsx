@@ -30,7 +30,7 @@ const congCu = [
     id: 1,
     ten: 'Draw.io',
     gioiThieu:
-      'Draw.io là nền tảng vẽ biểu đồ mã nguồn mở cho phép sử dụng miễn phí. Chúng ta có thể sử dụng Draw.io bằng cách download về máy hoặc vẽ trên nền tảng web trực tuyến. Công cụ có thiết kế giao diện tối giản. Các tính năng được bố trí một cách hợp lý nên dễ dàng tìm kiếm và sử dụng để thiết kế. ',
+      'Draw.io là nền tảng vẽ biểu đồ tư duy miễn phí. Các bạn có thể sử dụng app Draw.io bằng cách download về máy hoặc vẽ trực tiếp trên nền tảng web trực tuyến. Công cụ có thiết kế giao diện tối giản và khá dễ hiểu nên các bạn có thể vừa dùng vừa khám phá dần.',
     huongDan: [
       'Bước 1: Truy cập notion.so và đăng ký tài khoản bằng email nhóm.',
       'Bước 2: Tham gia workspace "Article Hungers" qua link mời được gửi trong email.',
