@@ -32,10 +32,9 @@ const congCu = [
     gioiThieu:
       'Draw.io là nền tảng vẽ biểu đồ tư duy miễn phí. Các bạn có thể sử dụng app Draw.io bằng cách download về máy hoặc vẽ trực tiếp trên nền tảng web trực tuyến. Công cụ có thiết kế giao diện tối giản và khá dễ hiểu nên các bạn có thể vừa dùng vừa khám phá dần.',
     huongDan: [
-      'Bước 1: Truy cập notion.so và đăng ký tài khoản bằng email nhóm.',
-      'Bước 2: Tham gia workspace "Article Hungers" qua link mời được gửi trong email.',
-      'Bước 3: Tạo trang cá nhân trong thư mục "Members" để ghi chú riêng.',
-      'Bước 4: Sử dụng template có sẵn trong thư mục "Templates" để bắt đầu nhanh.',
+      'Web: https://app.diagrams.net/ ',
+      'HDSD: Các bạn có thể tìm trên youtube các video hướng dẫn nếu cần.',
+    
     ],
   },
   {
