@@ -175,14 +175,36 @@ export default function Home() {
                         📖 Hướng dẫn sử dụng:
                       </h5>
                       <ol className="space-y-2">
-                        {tool.huongDan.map((buoc, index) => (
-                          <li
-                            key={index}
-                            className="text-gray-600 leading-relaxed pl-2"
-                          >
-                            {buoc}
-                          </li>
-                        ))}
+                      {tool.huongDan.map((buoc, index) => {
+  // Kiểm tra xem dòng có chứa link http không
+  const urlMatch = buoc.match(/(https?:\/\/[^\s]+)/);
+  
+  if (urlMatch) {
+    // Nếu có link, tách text và link ra riêng
+    const parts = buoc.split(urlMatch[0]);
+    return (
+      <li key={index} className="text-gray-600 leading-relaxed pl-2">
+        {parts[0]}
+        <a 
+          href={urlMatch[0]} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-blue-600 underline hover:text-blue-800"
+        >
+          {urlMatch[0]}
+        </a>
+        {parts[1]}
+      </li>
+    );
+  }
+  
+  // Nếu không có link, hiển thị bình thường
+  return (
+    <li key={index} className="text-gray-600 leading-relaxed pl-2">
+      {buoc}
+    </li>
+  );
+})}
                       </ol>
                     </div>
                   </div>
