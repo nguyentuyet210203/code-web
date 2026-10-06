@@ -31,6 +31,7 @@ const congCu = [
     ten: 'Draw.io',
     gioiThieu:
       'Draw.io là nền tảng vẽ biểu đồ tư duy miễn phí. Các bạn có thể sử dụng app Draw.io bằng cách download về máy hoặc vẽ trực tiếp trên nền tảng web trực tuyến. Công cụ có thiết kế giao diện tối giản và khá dễ hiểu nên các bạn có thể vừa dùng vừa khám phá dần.',
+    link: 'https://app.diagrams.net/',
     huongDan: [
       'Web: https://app.diagrams.net/ ',
       'HDSD: Các bạn có thể tìm trên youtube các video hướng dẫn nếu cần.',
@@ -39,9 +40,9 @@ const congCu = [
   },
   {
     id: 2,
-    ten: 'Trello',
+    ten: 'Inciteful',
     gioiThieu:
-      'Trello là công cụ quản lý công việc dạng bảng Kanban. Giúp cả nhóm theo dõi ai đang làm gì, việc nào cần ưu tiên.',
+      'Inciteful là công cụ tìm kiếm và phân tích tài liệu học thuật dựa trên việc phân tích mạng lưới trích dẫn thay vì chỉ tìm kiếm theo từ khóa thông thường. ',
     huongDan: [
       'Bước 1: Truy cập trello.com và đăng nhập.',
       'Bước 2: Vào board "Article Hungers Tasks" được chia sẻ.',
