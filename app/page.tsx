@@ -7,14 +7,16 @@ const tips = [
   {
     id: 1,
     tieuDe: 'Nên làm gì khi burnout?',
-    noiDung:
-      'Sử dụng phương pháp Pomodoro: làm việc 25 phút, nghỉ 5 phút. Giúp tăng sự tập trung và tránh kiệt sức.',
+    
+      link: 'https://docs.google.com/document/d/1oEpDibfOY_04RZ8Shc2EIYG2jNO8_MWt/edit?usp=sharing&ouid=112102543920577934774&rtpof=true&sd=true',
+      tenLink: 'Academic Burnout',
   },
   {
     id: 2,
-    tieuDe: 't2',
-    noiDung:
-      'Luôn có tiêu đề rõ ràng, mở đầu bằng lời chào, nội dung ngắn gọn theo gạch đầu dòng, và kết thúc bằng lời cảm ơn.',
+    tieuDe: 'Cách viết Literature Review',
+    
+      link: 'https://docs.google.com/document/d/1X2r9lXslGaOEMmWlIxqdoGdBpJD_khek/edit?usp=sharing&ouid=112102543920577934774&rtpof=true&sd=true',
+      tenLink: 'Ten Simple Rules for Writing a Literature Review ',
 },
   {
     id: 3,
@@ -59,7 +61,7 @@ const congCu = [
   },
   {
     id: 3,
-    ten: 'Google Meet',
+    ten: 'Các AI hỗ trợ nghiên cứu',
     gioiThieu:
       'Google Meet là công cụ họp trực tuyến miễn phí, tích hợp sẵn với tài khoản Google của nhóm.',
     huongDan: [
@@ -127,10 +129,23 @@ export default function Home() {
                   </span>
                 </button>
                 {tipDangMo === tip.id && (
-                  <div className="px-6 pb-4 text-gray-600 leading-relaxed border-t border-gray-100 pt-3">
-                    {tip.noiDung}
-                  </div>
-                )}
+  <div className="px-6 pb-4 text-gray-600 leading-relaxed border-t border-gray-100 pt-3">
+    {tip.noiDung && <p className="mb-2">{tip.noiDung}</p>}
+    {tip.link && tip.tenLink && (
+      <p>
+        Link bài đọc: {' '}
+        <a 
+          href={tip.link} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-blue-600 underline hover:text-blue-800 font-medium"
+        >
+          {tip.tenLink}
+        </a>
+      </p>
+    )}
+  </div>
+)}
               </div>
             ))}
           </div>
