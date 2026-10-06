@@ -42,12 +42,19 @@ const congCu = [
     id: 2,
     ten: 'Inciteful',
     gioiThieu:
-      'Inciteful là công cụ tìm kiếm và phân tích tài liệu học thuật dựa trên việc phân tích mạng lưới trích dẫn thay vì chỉ tìm kiếm theo từ khóa thông thường. ',
+      `Inciteful là công cụ tìm kiếm và phân tích tài liệu học thuật dựa trên việc phân tích mạng lưới trích dẫn thay vì chỉ tìm kiếm theo từ khóa thông thường.
+      
+      Tính năng chính:
+      
+      - Paper Discovery: Tạo mạng lưới trích dẫn xung quanh bài báo gốc để tìm các bài viết tương tự, bài báo quan trọng nhất, cùng các tác giả và tổ chức nổi bật.
+      
+      - Literature Connector: Nhập hai bài báo bất kỳ để hiển thị sơ đồ trực quan kết nối giữa hai lĩnh vực nghiên cứu. `,
+    link: 'https://incitefulmed.com/academic/c',
     huongDan: [
-      'Bước 1: Truy cập trello.com và đăng nhập.',
-      'Bước 2: Vào board "Article Hungers Tasks" được chia sẻ.',
-      'Bước 3: Kéo thẻ công việc từ cột "To Do" sang "Doing" khi bắt đầu làm.',
-      'Bước 4: Di chuyển sang "Done" khi hoàn thành và ghi chú kết quả.',
+      'Web: https://incitefulmed.com/academic/c ',
+      'Tính năng Paper Discovery: Sử dụng thanh search góc phải trên đầu trang ',
+      'Tính năng Literature Connector: Sử dụng thanh search from - to ',
+      'Giao diện khá trực quan và dễ sử dụng, hữu ích trong việc tìm paper, các bạn tìm hiểu nhé.',
     ],
   },
   {
@@ -159,7 +166,7 @@ export default function Home() {
                       <h5 className="font-semibold text-purple-700 mb-1">
                         📌 Giới thiệu:
                       </h5>
-                      <p className="text-gray-600 leading-relaxed">
+                      <p className="text-gray-600 leading-relaxed whitespace-pre-line">
                         {tool.gioiThieu}
                       </p>
                     </div>
