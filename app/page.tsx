@@ -10,18 +10,18 @@ const tips = [
     noiDung:
       'Sử dụng phương pháp Pomodoro: làm việc 25 phút, nghỉ 5 phút. Giúp tăng sự tập trung và tránh kiệt sức.',
   },
-  {/*
+  {
     id: 2,
-    tieuDe: 'Mẹo viết email chuyên nghiệp',
+    tieuDe: 't2',
     noiDung:
       'Luôn có tiêu đề rõ ràng, mở đầu bằng lời chào, nội dung ngắn gọn theo gạch đầu dòng, và kết thúc bằng lời cảm ơn.',
-*/},
-  {/*
+},
+  {
     id: 3,
-    tieuDe: 'Cách tổ chức file trên Google Drive',
+    tieuDe: 't3',
     noiDung:
       'Tạo thư mục theo dự án, đặt tên file theo format: [YYYY-MM-DD]_TenFile_Version. Giúp dễ tìm kiếm và quản lý phiên bản.',
-*/},
+},
 ];
 
 // ============ DỮ LIỆU CÔNG CỤ ============
@@ -57,7 +57,7 @@ const congCu = [
       'Giao diện khá trực quan và dễ sử dụng, hữu ích trong việc tìm paper, các bạn tìm hiểu nhé.',
     ],
   },
-  {/*
+  {
     id: 3,
     ten: 'Google Meet',
     gioiThieu:
@@ -68,7 +68,7 @@ const congCu = [
       'Bước 3: Vào phòng họp đúng giờ, bật camera và mic khi phát biểu.',
       'Bước 4: Sử dụng tính năng "Share Screen" khi cần trình bày.',
     ],
-  */},
+  },
 ];
 
 export default function Home() {
